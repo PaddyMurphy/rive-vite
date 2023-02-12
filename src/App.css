@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.rive-columns {
+  display: flex;
+  width: 100%;
+}
+
+/* .rive-columns--popcorn {
+  padding: 2rem;
+} */
+
+.rive-column {
+  flex: 1;
+}
+
+.riveCanvas {
+  min-width: 450px !important;
+  height: auto !important;
+}
+
+.riveCanvas--popcorn {
+  aspect-ratio: 1;
+  max-height: 300px;
+  margin-bottom: 2rem;
+}
+
+.riveCanvas--jobby {
+  aspect-ratio: 1;
+}
+
+.riveCanvas--waterbar {
+  aspect-ratio: 2 / 1;
+}
+
+.rive-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.waterbar-range {
+  -webkit-appearance: slider-vertical;
+}
